@@ -360,9 +360,9 @@ public class BottomBarTab extends LinearLayout {
             setAlphas(activeAlpha);
         }
 
-        if (badge != null) {
+        /*if (badge != null) {
             badge.hide();
-        }
+        }*/
     }
 
     void deselect(boolean animate) {
@@ -385,9 +385,9 @@ public class BottomBarTab extends LinearLayout {
             setAlphas(inActiveAlpha);
         }
 
-        if (!isShifting && badge != null) {
+        /*if (!isShifting && badge != null) {
             badge.show();
-        }
+        }*/
     }
 
     private void animateColors(int previousColor, int color) {
