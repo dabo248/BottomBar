@@ -530,7 +530,7 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
         super.onLayout(changed, left, top, right, bottom);
 
         if (changed) {
-            updateTitleBottomPadding();
+            // updateTitleBottomPadding();
 
             if (isShy()) {
                 initializeShyBehavior();
